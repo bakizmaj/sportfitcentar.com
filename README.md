@@ -1,7 +1,7 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Sport Fit Centar</title>
+  <title>Sport Fit Center</title>
   <style>
     /* Add your CSS styles here */
     body {
@@ -85,15 +85,10 @@
   <div class="header">
     <h1>Sport Fit Center</h1>
     <ul class="navigation">
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
   </div>
-  <div id="about">
-    <div class="images">
-      <img class="image" src="physiotherapy1.jpg" alt="Physiotherapy 1">
-      <img class="image" src="physiotherapy2.jpg" alt="Physiotherapy 2">
-      <img class="image" src="physiotherapy3.jpg" alt="Physiotherapy 3">
-    </div>
-    <div class="description">
+</body>
+</html>
