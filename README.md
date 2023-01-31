@@ -1,7 +1,7 @@
 
 <html>
 <head>
-  <title>Sport Fit Center</title>
+  <title>Sport Fit Centar</title>
   <style>
     /* Add your CSS styles here */
     body {
