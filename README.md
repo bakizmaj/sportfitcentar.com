@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head>
   <title>Sport Fit Center</title>
@@ -17,6 +17,7 @@
     .header h1 {
       font-size: 36px;
       font-weight: bold;
+      margin-right: auto;
     }
     .navigation {
       display: flex;
@@ -31,52 +32,6 @@
     .navigation a {
       text-decoration: none;
       color: white;
-      font-size: 18px;
-    }
-    .images {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 50px;
-    }
-    .image {
-      width: 300px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin-bottom: 50px;
-      box-shadow: 5px 5px 10px gray;
-    }
-    .description {
-      text-align: center;
-      font-size: 18px;
-      margin-top: 20px;
-    }
-    .contact {
-      text-align: center;
-      margin-top: 50px;
-    }
-    .form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
-    .form input[type="email"] {
-      width: 50%;
-      padding: 10px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      border: none;
-      font-size: 18px;
-    }
-    .form input[type="submit"] {
-      width: 30%;
-      padding: 10px;
-      background-color: white;
-      color: lightblue;
-      border-radius: 10px;
-      border: none;
-      cursor: pointer;
       font-size: 18px;
     }
   </style>
