@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>Sport Fit Center</title>
@@ -9,10 +9,29 @@
       font-family: sans-serif;
     }
     .header {
-      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    .header h1 {
       font-size: 36px;
       font-weight: bold;
-      margin-top: 50px;
+    }
+    .navigation {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .navigation li {
+      margin: 0 20px;
+    }
+    .navigation a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
     }
     .images {
       display: flex;
@@ -65,23 +84,16 @@
 <body>
   <div class="header">
     <h1>Sport Fit Center</h1>
+    <ul class="navigation">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
-  <div class="images">
+  <div id="about" class="images">
     <img class="image" src="physiotherapy1.jpg" alt="Physiotherapy 1">
     <img class="image" src="physiotherapy2.jpg" alt="Physiotherapy 2">
     <img class="image" src="physiotherapy3.jpg" alt="Physiotherapy 3">
   </div>
   <div class="description">
-    <p>At Sport Fit Center, we provide personalized physiotherapy services to help you recover from injury and improve your physical performance. Our team of expert therapists use the latest techniques and equipment to help you achieve your goals and live a pain-free life.</p>
-  </div>
-  <div class="contact">
-    <h2>Contact Us</h2>
-    <p>Phone: (123) 456-7890</p>
-    <p>Email: sportfitcenter@email.com</p>
-    <p>Address: 123 Main St, Anytown USA 12345</p>
-  </div>
-  <div class="form">
-    <h2>Subscribe to Our Newsletter</h2>
-    <form>
-      <input type="email" placeholder="Enter your email">
-      <input type="submit">
+   
