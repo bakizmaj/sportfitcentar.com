@@ -90,10 +90,10 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
-  <div id="about" class="images">
-    <img class="image" src="physiotherapy1.jpg" alt="Physiotherapy 1">
-    <img class="image" src="physiotherapy2.jpg" alt="Physiotherapy 2">
-    <img class="image" src="physiotherapy3.jpg" alt="Physiotherapy 3">
-  </div>
-  <div class="description">
-   
+  <div id="about">
+    <div class="images">
+      <img class="image" src="physiotherapy1.jpg" alt="Physiotherapy 1">
+      <img class="image" src="physiotherapy2.jpg" alt="Physiotherapy 2">
+      <img class="image" src="physiotherapy3.jpg" alt="Physiotherapy 3">
+    </div>
+    <div class="description">
