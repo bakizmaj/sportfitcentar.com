@@ -12,7 +12,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px;
+     
     }
     .header h1 {
       font-size: 36px;
@@ -24,7 +24,7 @@
       justify-content: center;
       list-style: none;
       margin: 0;
-      padding: 0;
+      
     }
     .navigation li {
       margin: 0 20px;
