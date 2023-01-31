@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sport Fit Center - About</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      background-color: lightblue;
+      font-family: sans-serif;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    .header h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .navigation {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .navigation li {
+      margin: 0 20px;
+    }
+    .navigation a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+    }
+    .description {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 50px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Sport Fit Center</h1>
+    <ul class="navigation">
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="description">
+    <p>Sport Fit Center is a physiotherapy business that is dedicated to helping people achieve their health and fitness goals. Our team of experienced physiotherapists will work with you to design a personalized treatment plan that takes into account your specific needs and goals. Whether you are recovering from an injury, looking to improve your performance in a sport, or just want to stay in good physical shape, we are here to help you achieve your goals.</p>
+  </div>
+</body>
+</html>
